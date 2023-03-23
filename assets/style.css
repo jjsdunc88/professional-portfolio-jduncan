@@ -2,25 +2,50 @@
 * {
 margin: 0;
 padding: 0;
-background-color: dodgerblue;
-
+position: relative;
 }
 
 /* Element Selectors */
-
 body {
- ;
+   }
 
-}
+main {
 
-.text-right {
- text-align: right;
- 
-
-}
+}   
 
 header {
-    
+height: 100px;
+width: 100%;
+line-height: 30px;
+background-color: dimgrey;
+ }
 
+div {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
 
 }
+
+
+/* Class Selectors */
+
+
+.selfie {
+height: 75px;
+border: 10px solid rgb(54, 54, 71);
+
+} 
+
+.text-right {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+
+li {
+display: inline;
+}
+
+[Hori]
