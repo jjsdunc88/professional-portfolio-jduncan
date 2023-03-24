@@ -23,12 +23,6 @@ background-color: dimgrey;
     border: 10px solid black;
   }
 
-[Horiseon] {
-
-    
-}
-
-
 
 
 /* Class Selectors */
@@ -37,8 +31,14 @@ background-color: dimgrey;
 .selfie {
 height: 75px;
 border: 10px solid rgb(54, 54, 71);
-
+display: flex;
+justify-content: flex-start;
 } 
+
+.horiseon {
+   height: 400px;
+}
+
 
 .text-right {
    display: flex;
