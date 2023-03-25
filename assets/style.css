@@ -1,52 +1,23 @@
-/* Universal Selectors */
-* {
-
-}
-
-/* Element Selectors */
-body {
-   }
-
-main {
-
-}   
-
 header {
-width: 100%;
-background-color: dimgrey;
+   width: 100%;
+   background-color: #193fa8;
+ }
+ 
+ h2 {
+   text-align: left;
+ }
+ 
+ ul {
+   text-align: right;
+   color: #838896;
  }
 
- section {
-    height: 400px;
-    width: 80%;
-    margin: 30px auto;
-    border: 10px solid black;
-  }
-
-
-
-/* Class Selectors */
-
+li {
+   display: inline;
+   font-size: 35px;
+}
 
 .selfie {
-height: 75px;
-border: 10px solid rgb(54, 54, 71);
-display: flex;
-justify-content: flex-start;
-} 
-
-.horiseon {
-   height: 400px;
-}
-
-
-.text-right {
    display: flex;
-   justify-content: flex-end;
-   align-items: flex-start;
+   height: 200px;
 }
-
-li {
-display: inline;
-}
-
