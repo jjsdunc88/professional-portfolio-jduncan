@@ -3,13 +3,13 @@ header {
    background-color: #193fa8;
  }
  
- h2 {
+ h1 {
    text-align: left;
  }
  
  ul {
    text-align: right;
-   color: #838896;
+   color:black
  }
 
 li {
@@ -20,4 +20,27 @@ li {
 .selfie {
    display: flex;
    height: 200px;
+}
+
+h2 {
+   text-align: left;
+}
+
+h3 {
+ text-align: center;
+}
+
+.horiseon {
+   height: 600px;
+   position: relative;
+   left: 50px;
+}
+
+.orangutan {
+   height: 100;
+}
+
+section {
+   border: 10px solid black;
+
 }
