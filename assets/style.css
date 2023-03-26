@@ -1,6 +1,15 @@
+body {
+   position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #144e99;
+  color: #f2f1f7;
+}
+
 header {
    width: 100%;
-   background-color: #193fa8;
+   background-color: #112357;
+ 
  }
  
  h1 {
@@ -9,13 +18,22 @@ header {
  
  ul {
    text-align: right;
-   color:black
+  
  }
 
 li {
    display: inline;
    font-size: 35px;
+   border-bottom: #f2f1f7;
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #f2f1f7;
+
+}
+
 
 .selfie {
    display: flex;
@@ -23,6 +41,7 @@ li {
 }
 
 h2 {
+   
    text-align: left;
 }
 
@@ -31,16 +50,26 @@ h3 {
 }
 
 .horiseon {
-   height: 600px;
+   height: 500px;
    position: relative;
-   left: 50px;
+   left: 300px;
+  
 }
 
-.orangutan {
-   height: 100;
+.orangutan{
+   height: 300px;
+   display: inline;
 }
 
-section {
-   border: 10px solid black;
-
+.homosapien {
+height: 300px;
+display: inline;
 }
+
+@media screen and (max-width: 992px) 
+ 
+ 
+@media screen and (max-width: 768px)
+ 
+
+@media screen and (max-width: 576px) 
