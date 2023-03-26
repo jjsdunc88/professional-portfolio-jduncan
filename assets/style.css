@@ -9,14 +9,18 @@ body {
 header {
    width: 100%;
    background-color: #112357;
- 
  }
  
+ footer li {
+   font-size: 20px;
+  
+ }
+
  h1 {
    text-align: left;
  }
  
- ul {
+  nav ul {
    text-align: right;
   
  }
@@ -58,12 +62,32 @@ h3 {
 
 .orangutan{
    height: 300px;
-   display: inline;
+  position: relative;
+  left: 200px;
 }
 
 .homosapien {
 height: 300px;
-display: inline;
+position: relative;
+left: 700px;
+bottom: 400px;
+}
+
+.p2 {
+   position: relative;
+   left: -250px;
+}
+
+.p3 {
+   position: relative;
+   left: 250px;
+   bottom: 400px;
+  
 
 }
 
+
+
+#contact-me {
+  text-align: center;
+}
