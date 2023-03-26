@@ -1,3 +1,5 @@
+/* Element Selectors */
+
 body {
    position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
@@ -11,58 +13,55 @@ header {
    background-color: #112357;
  }
  
- footer li {
+footer li {
    font-size: 20px;
-  
- }
+ } 
 
  h1 {
    text-align: left;
  }
  
-  nav ul {
+nav ul {
    text-align: right;
-  
- }
+}
 
 li {
    display: inline;
    font-size: 35px;
-   border-bottom: #f2f1f7;
 }
 
 a:link,
 a:visited {
   text-decoration: none;
   color: #f2f1f7;
-
 }
 
+h2 {
+   text-align: left;
+}
+
+p {
+   text-align: center;
+}
+
+h3 {
+   text-align: center;
+}
+
+
+ /*Class Selectors */
 
 .selfie {
    display: flex;
    height: 200px;
 }
 
-h2 {
-   
-   text-align: left;
-}
-
-h3 {
- text-align: center;
-}
-
-p {
-   text-align: center;
-   
-}
-
 .horiseon {
    height: 500px;
+   width: 50%;
    position: relative;
-   left: 650px;
-  
+   object-fit: cover;
+   justify-content: center;
 }
 
 .orangutan{
@@ -87,11 +86,9 @@ bottom: 400px;
    position: relative;
    left: 250px;
    bottom: 400px;
-  
-
 }
 
-
+/* ID Selectors */
 
 #contact-me {
   text-align: center;
