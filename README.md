@@ -10,7 +10,7 @@ During this project, I continued to learn about basic HTML and CSS functions, ut
 
 ![alt text](./assets/Portfolio%20Page%20Screenshot.png)
 
-[Click here for live website]()
+[Click here for live website](https://jjsdunc88.github.io/professional-portfolio-jduncan/)
 
 
 ## License
