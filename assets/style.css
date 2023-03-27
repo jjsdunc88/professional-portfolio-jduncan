@@ -57,36 +57,21 @@ h3 {
 }
 
 .horiseon {
-   /* height: 500px; */
    width: 75%;
-   /* position: relative; */
-   /* object-fit: cover; */
-   /* justify-content: center; */
-
+  
 }
 
 .orangutan{
    height: 298px;
-  /* position: relative; */
-  /* left: 580px; */
+ 
 } 
 
 .homosapien {
 height: 300px;
-/* position: relative; */
-/* left: 1060px;
-bottom: 400px; */
-}
 
-.p2 {
-   /* position: relative; */
-   /* left: -250px; */
 }
 
 .p3 {
-   /* position: relative; */
-   /* left: 250px;
-   bottom: 400px; */
    margin-left: 10px;
 }
 
@@ -112,10 +97,9 @@ bottom: 400px; */
 @media  and (min-width:769px)
 and (max-width: 1023px)
 { .test {
-   display: block;
-}
-   
-}
+   display: block;}
+
+   }
 
 @media screen and (max-width: 768px) {
    .test {
