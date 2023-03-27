@@ -89,6 +89,7 @@ height: 300px
    text-align: center;
 }
 
+/* Media Queries */
 
 @media screen and (max-width: 767px) {
    .test {
