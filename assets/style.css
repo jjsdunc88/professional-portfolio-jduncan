@@ -57,18 +57,15 @@ h3 {
 }
 
 .horiseon {
-   width: 75%;
-  
+   width: 75%;  
 }
 
 .orangutan{
    height: 298px;
- 
 } 
 
 .homosapien {
-height: 300px;
-
+height: 300px
 }
 
 .p3 {
@@ -79,7 +76,6 @@ height: 300px;
    display: flex;
    flex-direction: row;
    justify-content: center;
-
 }
 
 
@@ -94,14 +90,7 @@ height: 300px;
 }
 
 
-@media  and (min-width:769px)
-and (max-width: 1023px)
-{ .test {
-   display: block;}
-
-   }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    .test {
       display: block;
    }
