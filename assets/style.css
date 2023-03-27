@@ -68,9 +68,6 @@ h3 {
 height: 300px
 }
 
-.p3 {
-   margin-left: 10px;
-}
 
 .p2p3 {
    display: flex;
@@ -95,7 +92,5 @@ height: 300px
    .p2p3 {
       display: block;
    }
- .p3 {
-   margin-left: unset;
+
  }
-} 
