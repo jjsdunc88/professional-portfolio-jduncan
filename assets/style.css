@@ -74,7 +74,9 @@ height: 300px
    flex-direction: row;
    justify-content: center;
 }
-
+ .p3 {
+   margin-left: 20px;
+ }
 
 /* ID Selectors */
 
@@ -92,5 +94,7 @@ height: 300px
    .p2p3 {
       display: block;
    }
-
+   .p3 {
+      margin-left: unset;
+   }
  }
