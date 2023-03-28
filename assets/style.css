@@ -1,4 +1,4 @@
-/* Element Selectors */
+/* Body Style --------------------------*/
 
 body {
    position: relative;
@@ -8,18 +8,23 @@ body {
   color: #f2f1f7;
 }
 
+
+/* Header and Nav Bar --------------------*/
+
 header {
    width: 100%;
    background-color: #112357;
- }
+}
  
-footer li {
-   font-size: 20px;
- } 
+a:link,
+a:visited {
+   text-decoration: none;
+   color: #f2f1f7;
+}
 
- h1 {
+h1 {
    text-align: left;
- }
+}
  
 nav ul {
    text-align: right;
@@ -30,74 +35,61 @@ li {
    font-size: 35px;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #f2f1f7;
+.selfie {
+   display: flex; 
+   height: 200px;
 }
+
+
+
+/* Main Section ---------------------------*/
+
 
 h2 {
    text-align: left;
 }
 
-h4 {
-   text-align: left;
-   font-size: 1.5em;
-}
-
-p {
+p, h3, #work {
    text-align: center;
-}
-
-h3 {
-   text-align: center;
-}
-
-
- /*Class Selectors */
-
-.selfie {
-   display: flex;
-   height: 200px;
 }
 
 .horiseon {
-   width: 75%;
-    
+   width: 75%;    
 }
 
-.orangutan{
+.orangutan, 
+.homosapien {
    height: 200px;
 } 
-
-.homosapien {
-height: 200px
-}
-
 
 .p2p3 {
    display: flex;
    flex-direction: row;
    justify-content: center;
 }
- .p3 {
-   margin-left: 20px;
- }
 
-/* ID Selectors */
+.p3 {
+   margin-left: 20px;
+}
+
+
+ /* Footer ---------------------------------*/
 
 #contact-me {
-  text-align: center;
+ text-align: center;
 }
 
-#work {
-   text-align: center;
- 
+footer li {
+   font-size: 20px;
+} 
+
+h4 {
+   text-align: left;
+   font-size: 1.5em;
 }
 
 
-
-/* Media Queries */
+/* Media Queries --------------------------*/
 /* Mobile Devices */
 @media screen and (max-width: 767px) {
    .p2p3 {
@@ -106,4 +98,4 @@ height: 200px
    .p3 {
       margin-left: unset;
    }
- }
+}
