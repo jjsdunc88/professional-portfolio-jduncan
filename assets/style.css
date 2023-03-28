@@ -57,15 +57,16 @@ h3 {
 }
 
 .horiseon {
-   width: 75%;  
+   width: 75%;
+    
 }
 
 .orangutan{
-   height: 298px;
+   height: 200px;
 } 
 
 .homosapien {
-height: 300px
+height: 200px
 }
 
 
@@ -86,6 +87,7 @@ height: 300px
 
 #work {
    text-align: center;
+ 
 }
 
 
