@@ -88,8 +88,10 @@ height: 300px
    text-align: center;
 }
 
-/* Media Queries */
 
+
+/* Media Queries */
+/* Mobile Devices */
 @media screen and (max-width: 767px) {
    .p2p3 {
       display: block;
