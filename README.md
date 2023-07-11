@@ -8,7 +8,7 @@ During this project, I continued to learn about basic HTML and CSS functions, ut
 
 ## Usage
 
-![alt text](./assets/updatedss.png)
+![alt text](./assets/updatedssp2.png)
 
 [Click here for live website](https://jjsdunc88.github.io/professional-portfolio-jduncan/)
 
